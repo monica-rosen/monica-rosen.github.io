@@ -20,8 +20,7 @@
 
 title: Seek The Grail Builder Blog
 email: seek.the.grail.2025@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-- This is the Builder Blog version of Seek The Grail, where I share the detailed blog posts on how things are being built in plain markdown format
+description: >- This is the Builder Blog version of Seek The Grail, where I share the detailed blog posts on how things are being built in plain markdown format
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  monica-rosen
