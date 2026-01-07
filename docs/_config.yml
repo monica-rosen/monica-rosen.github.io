@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Seek The Grail Builder Blog
-email: seek.the.grail.2025@gmail.com
+title: The Connective Tissue
+email: theconnectivetissue1@gmail.com
 description: >-  
-  This is the Builder Blog version of Seek The Grail
-  where I share the detailed blog posts on how things are being built in plain markdown format
+  This is the Builder Blog of The Connective Tissue, where I share my thoughts and notes on AI, Automation, Tech enablement, and scalable learning
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  monica-rosen
