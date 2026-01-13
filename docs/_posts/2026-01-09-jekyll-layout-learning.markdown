@@ -74,27 +74,31 @@ I had:
 - post.html
 
 But my page.html originally looked like this:
-
+{% raw %}
 ```html
-<!--
+---
 layout: default
--->
+---
 <section>
   <h1>{{ page.title }}</h1>
   {{ content }}
 </section>
 ```
+{% endraw %}
 
 I changed it to look like this:
+{% raw %}
 ```html
-<!--
+---
 layout: default
--->
+---
 
 <article>
   {{ content }}
 </article>
 ```
+{% endraw %}
+
 I changed it and suddenly, 
 the About page came back to life. 
 However, 
