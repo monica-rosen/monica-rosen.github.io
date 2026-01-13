@@ -52,12 +52,14 @@ I even added the nuclear test:
 body {
   color: red !important;
 }
+```
+
 Still blank.
 
 That was the clue:
 👉 This was not a CSS problem.
 
-Phase 2: Understanding Layout Chaining (The Real Culprit)
+## Phase 2: Understanding Layout Chaining (The Real Culprit)
 
 Here’s the thing no one tells you clearly:
 
@@ -81,6 +83,7 @@ layout: default
   {{ content }}
 </section>
 ```
+
 I changed it to look like this:
 ```html
 ---
