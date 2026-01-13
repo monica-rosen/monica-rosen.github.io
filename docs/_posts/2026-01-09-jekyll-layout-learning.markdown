@@ -74,10 +74,11 @@ I had:
 - post.html
 
 But my page.html originally looked like this:
+
 ```html
----
+<!--
 layout: default
----
+-->
 <section>
   <h1>{{ page.title }}</h1>
   {{ content }}
@@ -86,9 +87,9 @@ layout: default
 
 I changed it to look like this:
 ```html
----
+<!--
 layout: default
----
+-->
 
 <article>
   {{ content }}
