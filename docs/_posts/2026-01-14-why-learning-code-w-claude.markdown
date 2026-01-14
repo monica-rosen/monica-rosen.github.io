@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Why I'm Learning to Code with Claude (To Become an AI Architect)"
-date: 2026-01-15
-categories: [AI Strategy, Solopreneurship, Enablement]
-tags: [Claude, Connective Tissue, Future of Work, No-Code]
-excerpt: "In 2026, the gap isn't between technical and non-technical founders. It's between those who buy tools and those who build systems. Here is why I'm using Claude Code to cross that bridge."
+
 ---
 
 ## The "No-Code" Lie
