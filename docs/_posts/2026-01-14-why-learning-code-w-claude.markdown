@@ -31,8 +31,8 @@ I am learning to code so I can build the **Connective Tissue** between those too
 
 I just picked up a subscription to **Claude Code**, Anthropic's advanced coding agent. Why? Because it changes the learning curve entirely.
 
-* **Old Way:** Learn syntax $\rightarrow$ Write Code $\rightarrow$ Debug Errors $\rightarrow$ Build Logic.
-* **The Centaur Way:** Define Logic $\rightarrow$ Architect System $\rightarrow$ **Claude Writes Code** $\rightarrow$ I Review & Deploy.
+* **Old Way:** Learn syntax → Write Code → Debug Errors → Build Logic
+* **The Centaur Way:** Define Logic → Architect System → Claude Writes Code → I Review & Deploy
 
 By taking a focused 5-hour course on video coding alongside Claude, I am skipping the "Syntax Valley of Death." I am learning how to ask the machine to build "Glue Scripts"—simple Python or JSON bridges that automate the boring stuff.
 
