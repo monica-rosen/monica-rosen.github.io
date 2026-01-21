@@ -18,4 +18,5 @@ Today, I moved from "manual vibes" to "technical enablement."
 ### The Setup
 I'm now using a Node.js script with `gray-matter` and `marked` to translate my local Jekyll files into Ghost-ready HTML. 
 
-If you see this post on my newsletter, the automation worked! 🚀
+If you see this post on my newsletter, the automation worked. 🚀
+Follow me to get more content on AI Enablement!
