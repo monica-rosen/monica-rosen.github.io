@@ -2,7 +2,7 @@ name: Sync Markdown to Ghost
 on:
   push:
     paths:
-      - '_posts/**.md' # Adjust this to where your blog posts live
+      - 'docs/_posts/**' # Updated to match your 'docs' folder
 
 jobs:
   ghost-sync:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2 # Needed to detect which file changed
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,10 +25,10 @@ jobs:
           GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
           GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
         run: |
-          # Detect the added/modified file
-          FILE=$(git diff --name-only HEAD^ HEAD | grep '_posts/' | head -n 1)
+          # Updated to look inside the docs/_posts/ folder
+          FILE=$(git diff --name-only HEAD^ HEAD | grep 'docs/_posts/' | head -n 1)
           if [ -n "$FILE" ]; then
             node scripts/ghost-publish.js "$FILE"
           else
-            echo "No new posts to sync."
+            echo "No new posts detected in docs/_posts/"
           fi
