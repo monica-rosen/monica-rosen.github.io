@@ -5,6 +5,13 @@ const matter = require('gray-matter'); // NEW: Handles Jekyll Front Matter
 
 async function publishPost() {
   const filePath = process.argv[2];
+  console.log(`📂 Robot is looking at file: ${filePath}`); // ADD THIS LINE
+  
+  if (!filePath || !fs.existsSync(filePath)) {
+    console.error("❌ Error: The robot couldn't find the file path provided.");
+    process.exit(1);
+  }
+
   const fileString = fs.readFileSync(filePath, 'utf8');
 
   // 1. Use gray-matter to split the file
