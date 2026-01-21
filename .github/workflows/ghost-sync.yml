@@ -1,0 +1,34 @@
+name: Sync Markdown to Ghost
+on:
+  push:
+    paths:
+      - '_posts/**.md' # Adjust this to where your blog posts live
+
+jobs:
+  ghost-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Needed to detect which file changed
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install @tryghost/admin-api marked gray-matter
+
+      - name: Publish New Post
+        env:
+          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
+          GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        run: |
+          # Detect the added/modified file
+          FILE=$(git diff --name-only HEAD^ HEAD | grep '_posts/' | head -n 1)
+          if [ -n "$FILE" ]; then
+            node scripts/ghost-publish.js "$FILE"
+          else
+            echo "No new posts to sync."
+          fi
