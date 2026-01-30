@@ -9,7 +9,7 @@ excerpt: "As employees, we are paid for motion. As founders, we are paid for cla
 
 ## The Guilt of the Empty Calendar
 
-Yesterday, I did nothing for THe Connective Tissue.
+Yesterday, I did nothing for The Connective Tissue.
 
 I didn't write code. I didn't build workflows. I didn't even tweak my website. I just... existed. And by 9:00 PM, the guilt set in. *“I’m falling behind. I should be building. I should be moving.”*
 
