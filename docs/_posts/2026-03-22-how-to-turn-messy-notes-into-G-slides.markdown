@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Gemini Prompt Guide: From 'Slide Formatter' to 'AI Workflow Architect'"
+date: 2026-03-22
+categories: [Gemini, AI Strategy, ROI]
+---
 # 📂 Gemini Prompt Guide: From "Slide Formatter" to "AI Workflow Architect"
 
 We’ve all been there: It’s 2:00 PM, and a VP drops a "fire drill" request for a board-level strategy deck due by 4:00 PM. In the past, this meant canceling your afternoon, hunting down last year’s files, and manually wrestling with bullet points.
