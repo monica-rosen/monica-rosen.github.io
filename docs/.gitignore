@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
+# Obsidian settings and workspace state
+.obsidian/

@@ -6,6 +6,7 @@ categories: [Gemini, AI Strategy, ROI]
 ---
 # 📂 Gemini Prompt Guide: From "Slide Formatter" to "AI Workflow Architect"
 
+Update: this post is now updated using my new AWS AI Lab pipeline!
 We’ve all been there: It’s 2:00 PM, and a VP drops a "fire drill" request for a board-level strategy deck due by 4:00 PM. In the past, this meant canceling your afternoon, hunting down last year’s files, and manually wrestling with bullet points.
 
 In this edition, we’re breaking down how to stop being a manual formatter and start acting as an **AI Workflow Architect**. Using a real-world "Cloud Grind SAS" scenario, we’ll show you two distinct methods to bridge the gap between messy strategy notes and high-stakes technical reality—without losing your mind (or your evening).

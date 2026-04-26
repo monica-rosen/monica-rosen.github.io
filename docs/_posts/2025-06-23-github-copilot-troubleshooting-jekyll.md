@@ -46,4 +46,6 @@ Throughout the project, GitHub Copilot was an invaluable assistant. Here’s how
 
 Building a Jekyll site on GitHub Pages is a fantastic way to learn about web development and static site generation. With GitHub Copilot’s help, I was able to overcome common issues quickly, understand best practices, and expand my site with new features. If you’re working on a similar project, don’t hesitate to ask Copilot for troubleshooting advice—it’s like having an expert by your side, 24/7.
 
+This is related to [2026-01-09-jekyll-layout-learning]
+
 ---
