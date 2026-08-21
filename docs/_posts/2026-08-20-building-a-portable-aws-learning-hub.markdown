@@ -3,6 +3,7 @@ layout: post
 title: "How I Turned One API Lesson into a Portable AWS Learning Hub"
 date: 2026-08-20 16:30:00 -0400
 categories: aws learning-design tech-enablement build-in-public
+permalink: /2026/08/20/building-a-portable-aws-learning-hub.html
 ---
 
 I started with a fairly contained idea: build an interactive page that teaches API basics.
